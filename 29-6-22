@@ -1,0 +1,14 @@
+emp={}
+    h=int(input("enter the number of employees : "))
+    for in in range(1,h+1):
+         e=[]
+        name=input("enter the name of  employee : ")
+        e.append(name)
+       role=input("enter the designation of employee : ")
+        e.append(role)
+       phno=int(input("enter the employee phone number : "))
+       e.append(phno)
+        sal=int(input("enter the employee salary : "))
+       e.append(sal)
+         emp[i]=i
+  print(emp)
