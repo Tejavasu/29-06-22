@@ -1,0 +1,16 @@
+ n=int(input())
+ d={}
+ for i in range( n):
+      u=intput().split('  ')
+      k=u[0]
+      v=u[1]
+      d[k]=v
+ for j in range(n):
+   try:
+       c=input()
+        if c in d:
+            print(c+' '+d[c])
+        else:
+             print("No")
+    except:
+             print()
